@@ -1,0 +1,20 @@
+coverage:
+  status:
+    project:
+      default: off
+      backend:
+        target: 50%
+        flags:
+          - backend
+      api:
+        target: 89%
+        flags:
+          - api
+
+flags:
+  backend:
+    paths:
+      - backend/
+  api:
+    paths:
+      - api/
